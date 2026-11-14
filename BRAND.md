@@ -44,7 +44,7 @@ Stripe Press, Robin Sloan-newslettern, amerikansk indie-publishing från sent
 ### Skriv så här
 - **Andra person, lågt tonläge:** "Jag mejlar dig", "Du kan avregistrera dig"
 - **Korta, raka meningar.** Inga halvkilometers-meningar.
-- **Konkret, inte generiskt:** "varje onsdag eftermiddag" slår "regelbundet"
+- **Konkret, inte generiskt:** "ett mejl i veckan" slår "regelbundet"
 - **Ärlighet om begränsningar:** "Inga skräpmejl", "Du kan när som helst",
   "ingen e-post krävs"
 - **Mikrocopy under knappar** (förstärker trygghet, ej hype)
@@ -69,7 +69,7 @@ Stripe Press, Robin Sloan-newslettern, amerikansk indie-publishing från sent
 | Plats               | Mönster                                                          |
 |---------------------|------------------------------------------------------------------|
 | Eyebrow / preheader | Versaler, ord-minimalt: "VECKOBREV", "VAD DU FÅR", "PRENUMERERA" |
-| Rubrik-accent       | *Kursivt + amber* för ett betonat ord ("vibe coding", "onsdag")  |
+| Rubrik-accent       | *Kursivt + amber* för ett betonat ord ("vibe coding", "på riktigt")  |
 | Mikrotext under CTA | "Inga skräpmejl. Hanteras enligt GDPR."                          |
 | Bekräftelse-rubrik  | "Tack! *Du är med.*"                                             |
 
@@ -300,7 +300,7 @@ inline under fältet i amber-700 text på amber-50 fyllning. Aldrig toast.
 
 ```html
 <p class="eyebrow">Veckobrev</p>
-<h2>Häng med på <em class="serif-italic">onsdagar</em>.</h2>
+<h2>Häng med i <em class="serif-italic">veckobrevet</em>.</h2>
 ```
 
 ### 6.4 Kort med 01/02/03 numrering
@@ -328,7 +328,7 @@ textstycke.
 ```html
 <article class="card">
   <span class="num">01</span>
-  <h4>Du får ett mejl varje onsdag</h4>
+  <h4>Du får ett mejl i veckan</h4>
   <p>7 till 8 minuters läsning. En tanke om AI, en hands-on idé.</p>
 </article>
 ```
@@ -457,7 +457,7 @@ bakgrund, eyebrow uppe, stor serif-rubrik (med italic accent),
 ## 11. Do och Don't
 
 ### Do
-- ✓ Skriv i andra person ("Jag mejlar dig på onsdag")
+- ✓ Skriv i andra person ("Jag mejlar dig en gång i veckan")
 - ✓ Ett kursivt amber-ord per rubrik (saffranregeln)
 - ✓ Crème som sidans bas, alternera cream-100 och cream-200
 - ✓ Microcopy som beskriver gränser, inte hypar

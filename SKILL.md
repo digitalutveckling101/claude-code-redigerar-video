@@ -209,7 +209,7 @@ Mörk `.end`-sektion (ink-900 bakgrund) med:
 4. **Nyhetsbrevs-kort** (cream-50, amber-knapp, ink-900 text):
    - Eyebrow: "Veckobrev"
    - Rubrik: t.ex. "Vill du tänka mer kring [ämne från kursen], AI och Claude?"
-   - Beskrivning som matchar `config.newsletter.cadence` ("Onsdagar, kort, lågmält, på svenska")
+   - Beskrivning som matchar `config.newsletter.cadence` ("Kort, lågmält, på svenska")
    - Bullets enligt `config.newsletter.structure` (med checkmark-cirklar)
    - Knapp: "Prenumerera på veckobrevet" → `config.newsletter.url`
    - Mikrocopy under knappen: `config.newsletter.microcopy`

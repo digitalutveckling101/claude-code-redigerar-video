@@ -40,12 +40,12 @@
     "required": true,
     "url": "https://veckobrev.birgir.se/",
     "name": "Veckobrev om AI, etik och vibe coding",
-    "cadence": "Onsdagar",
+    "cadence": "Ett mejl i veckan",
     "structure": [
       "En personlig reflektion (om AI och om att vara människa samtidigt)",
       "En konkret AI-insikt (något testat i veckan, ofta i Claude Code)",
       "En 10-minuters mikroövning du kan göra direkt"
     ],
-    "microcopy": "Onsdagar. Under 5 minuters läsning. Inga skräpmejl. Du kan när som helst avregistrera dig."
+    "microcopy": "Under 5 minuters läsning. Inga skräpmejl. Du kan när som helst avregistrera dig."
   }
 }
