@@ -696,6 +696,45 @@
   }
   .end .lead { color: var(--ink-300); margin-bottom: 40px; }
 
+  /* Gå vidare: boken + startkit */
+  .next-steps { margin: 0 0 56px; }
+  .next-steps .section-label { margin-bottom: 10px; }
+  .next-steps h3 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(26px, 3.4vw, 34px);
+    line-height: 1.2;
+    color: var(--cream-100);
+    margin: 0 0 12px;
+  }
+  .next-steps .intro { color: var(--ink-300); font-size: 17px; line-height: 1.55; margin: 0 0 28px; }
+  .offer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 720px) { .offer-grid { grid-template-columns: 1fr; } }
+  .offer {
+    display: flex; flex-direction: column;
+    background: var(--cream-50); color: var(--ink-900);
+    border-radius: var(--r-xl); padding: 30px 28px;
+    box-shadow: var(--shadow-lg);
+  }
+  .offer.warm { background: var(--amber-50); }
+  .offer .ico {
+    width: 44px; height: 44px; border-radius: 10px;
+    background: var(--amber-100); color: var(--amber-700);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .offer .kicker {
+    font-family: var(--mono); font-size: 11px; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--ink-500); margin: 18px 0 6px;
+  }
+  .offer.warm .kicker { color: var(--amber-700); }
+  .offer h4 {
+    font-family: var(--serif); font-weight: 600; font-size: 23px;
+    line-height: 1.25; margin: 0 0 10px; color: var(--ink-900);
+  }
+  .offer p { flex: 1; font-size: 15px; line-height: 1.6; color: var(--ink-700); margin: 0 0 22px; }
+  .offer .btn { align-self: flex-start; }
+
   .news-card {
     background: var(--cream-50);
     color: var(--ink-900);
@@ -1481,6 +1520,28 @@ Gör en färdig [stående 9:16 / liggande 16:9] video för [TikTok och Instagram
     <p class="section-label">Klar</p>
     <h2>Bra jobbat. Du tog dig igenom hela <em class="serif-italic">mini-kursen</em>.</h2>
     <p class="lead">Nu vet du hur en rå inspelning blir en färdig video med grafik på rätt ord. Börja med en kort inspelning, en minut räcker, och låt regelfilen växa därifrån.</p>
+
+    <div class="next-steps">
+      <p class="section-label">Gå vidare</p>
+      <h3>När du vill bygga <em class="serif-italic">på riktigt</em></h3>
+      <p class="intro">Två steg till för dig som fått smak på det. Boken ger dig hela landskapet, Startkitet tar dig hands-on i Claude Code.</p>
+      <div class="offer-grid">
+        <div class="offer">
+          <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></div>
+          <p class="kicker">Boken · 99 kr</p>
+          <h4>Vibe coding, hela landskapet</h4>
+          <p>Första boken om vibe coding på svenska. Den kompletta guiden till att bygga webbappar, AI-verktyg och produkter med AI, från idé till live, utan traditionell programmering. PDF med gratis framtida uppdateringar.</p>
+          <a href="https://vibecodingsverige.se/boken" class="btn btn-amber" target="_blank" rel="noopener">Till boken</a>
+        </div>
+        <div class="offer warm">
+          <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div>
+          <p class="kicker">Betald kurs · 199 kr</p>
+          <h4>Vibe Coding Startkit</h4>
+          <p>Bygg riktiga webbappar med Claude Code, utan att kunna koda. 9 kapitel, 50 färdiga prompts och 4 checklistor som tar dig hela vägen från första prompten till en webbapp på riktigt. Engångsbetalning, livstidstillgång med alla framtida uppdateringar.</p>
+          <a href="https://vibe-coding-startkit.birgir.se/" class="btn btn-amber" target="_blank" rel="noopener">Öppna startkitet</a>
+        </div>
+      </div>
+    </div>
 
     <div class="news-card">
       <div class="eyebrow">Veckobrev</div>
